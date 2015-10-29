@@ -13,3 +13,10 @@ Using HTML, CSS and JavaScript, I created a guessing game that asks the user que
 There are currently six questions, including the first question asking for the users name.
 
 Hope you enjoy the game!
+
+Edited by Miranda
+What was edited:
+  Moved logive into functions
+  Moved the alerts into DOM using p ids, doc.getElementById, and .innerHTML
+  Updated read me!
+
