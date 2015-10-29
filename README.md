@@ -1,8 +1,8 @@
 Hey there, this is the README file for RickTesmond's guessing game!
 Before I get into the description, how about a joke:
 
-Question: What time does Shaun Connery usually go to Wimbledon?
-Answer (read in a Shaun Connery voice): Around tennish!
+Question: What time does Sean Connery usually go to Wimbledon?
+Answer (read in a Sean Connery voice): Around tennish!
 
 
 Github project name: Guessing_game
