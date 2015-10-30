@@ -16,11 +16,11 @@ qa1.innerHTML = "Hey there, " + name + "! Please answer the questions with a 'Ye
 function questionOne() {
   var q1 = prompt('Is Rick from Seattle, Washington?');
 
-  if(q1.toLowerCase() === "yes" || "y" || "yeah") {
+  if(q1.toLowerCase() === "yes" || q1.toLowerCase() === "y" || q1.toLowerCase() === "yeah") {
     qa2.innerHTML = "Wrong! He is from Cincinnati, Ohio.";
     ans1 = 0;
     console.log('The user answered incorrectly with ' + q1);
-  } else if(q1.toLowerCase() === "no" || "n" || "naw") {
+  } else if(q1.toLowerCase() === "no" || q1.toLowerCase() === "n" || q1.toLowerCase() === "naw") {
     qa2.innerHTML = "Correct! He is from Cincinnati, Ohio";
     ans1=1;
     console.log('The user answered correctly with ' + q1);
@@ -33,11 +33,11 @@ function questionOne() {
 function questionTwo() {
   var q2 = prompt("Did Rick graduate college with a degree in psychology?");
 
-  if(q2.toLowerCase() === "yes" || "y" || "yeah") {
+  if(q2.toLowerCase() === "yes" || q2.toLowerCase() === "y" || q2.toLowerCase() === "yeah") {
     qa3.innerHTML = "Correct! He specialized in research psychology.";
     ans2 = 1;
     console.log('The user answered correctly with ' + q2);
-  } else if(q2.toLowerCase() === "no" || "n" || "naw") {
+  } else if(q2.toLowerCase() === "no" || q2.toLowerCase() === "n" || q2.toLowerCase() === "naw") {
     qa3.innerHTML = "Wrong! He majored in psychology with an emphasis on research.";
     ans2 = 0;
     console.log('The user answered incorrectly with ' + q2);
@@ -50,11 +50,11 @@ function questionTwo() {
 function questionThree() {
   var q3 = prompt("Did Rick live in Denmark?");
 
-  if(q3 === "yes" || "y" || "yeah") {
+  if(q3.toLowerCase() === "yes" || q3.toLowerCase() === "y" || q3.toLowerCase() === "yeah") {
     qa4.innerHTML = "Correct! He lived in a town called Hareskov for 8 months.";
     ans3 = 1;
     console.log('The user answered correctly with ' + q3);
-  }   else if(q3.toLowerCase() === "no" || "n" || "naw") {
+  }   else if(q3.toLowerCase() === "no" || q3.toLowerCase() === "n" || q3.toLowerCase() === "naw") {
     qa4.innerHTML = "Wrong! He lived in a town called Hareskov for 8 months";
     ans3 = 0;
     console.log('The user answered incorrectly with ' + q3);
@@ -67,11 +67,11 @@ function questionThree() {
 function questionFour() {
   var q4 = prompt("Is Rick a 'dog person'?");
 
-  if(q4 === "yes" || "y" || "yeah") {
+  if(q4.toLowerCase() === "yes" || q4.toLowerCase() === "y" || q4.toLowerCase() === "yeah") {
     qa5.innerHTML = "Wrong! He is a 'cat person', but is very open to becomming a 'dog person'.";
     ans4 = 0;
     console.log('The user answered incorrectly with ' + q4);
-  } else if(q4.toLowerCase() === "no" || "n" || "naw") {
+  } else if(q4.toLowerCase() === "no" || q4.toLowerCase() === "n" || q4.toLowerCase() === "naw") {
     qa5.innerHTML = "Correct, he is a self proclaimed 'cat person'.";
     ans4 = 1;
     console.log('The user answered correctly with ' + q4);
