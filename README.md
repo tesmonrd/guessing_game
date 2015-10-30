@@ -20,3 +20,10 @@ What was edited:
   Moved the alerts into DOM using p ids, doc.getElementById, and .innerHTML
   Updated read me!
 
+10-30
+Driver: Sawako Ishida
+Navigator: Rick Tesmond
+
+We added CSS (background and changed color when correct or incorrect.). We also added pictures, functions and timers into JS.
+
+
