@@ -13,7 +13,7 @@ var ans8 = document.getElementById('answer8');
 function questionZero() {
   var quest0 = prompt("Please enter your name.");
 
-  ans1.innerHTML = "Hey there, " + name + "! Please answer the questions with a 'Yes' or 'No'. <br /> <img style= 'width: 200px;' src='images/greetings.jpg' alt='greetings'/>"
+  ans1.innerHTML = "Hey there, " + quest0 + "! Please answer the questions with a 'Yes' or 'No'. <br /> <img style= 'width: 200px;' src='images/greetings.jpg' alt='greetings'/>"
 }
 
 function questionOne() {
@@ -133,12 +133,11 @@ function questionSeven(){
   if(score < 5) {
     ans8.innerHTML = "You got " + score + " out of 6 questions correct! Looks like you need to get to know Rick a bit more!";
   } else{
-    ans8.innerHTML = "You got a perfect score, " + score + " out of 6 right! You know Rick pretty well!";
+    ans8.innerHTML = "You got a perfect score, " + score + " out of 6 correct! You know Rick pretty well!";
     }
 }
 
 questionZero();
-// questionTwo();
 window.setTimeout(questionOne, 1000);
 window.setTimeout(questionTwo, 1050);
 window.setTimeout(questionThree, 1100);
@@ -146,7 +145,4 @@ window.setTimeout(questionFour, 1150);
 window.setTimeout(questionFive, 1200);
 window.setTimeout(questionSix, 1250);
 window.setTimeout(questionSeven, 1300);
-// questionThree();s
-// questionFour();
-// questionFive();
-// questionSix();
+
